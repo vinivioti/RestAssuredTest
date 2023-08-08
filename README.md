@@ -1,7 +1,7 @@
-# RestAssuredTest
+# <span style="color: yellow">RestAssuredTest</span>
 Projeto basico em RestAssured com cenários de teste Inserção, Alteração, Deleção de massa automaticamente
 
-*******  ATENÇÃO   *******
+<span style="color: red">******* ATENÇÃO *******</span>
 
 Após baixar o projeto, cadastre um usuário e senha no site:  https://seubarriga.wcaquino.me/cadastro
 e substitua as linhas 37 e 38 respectivamente com suas informações na classe **SuiteTeste.java**
