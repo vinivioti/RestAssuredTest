@@ -28,12 +28,14 @@ import rest.tests.TestesGerais;
 })
 
 public class suiteTeste extends BaseTest {
+
+	//CADASTRE UM USUÁRIO E SENHA EM https://seubarriga.wcaquino.me/cadastro
 	
 	@BeforeClass
 	public static void login() {
 		Map<String, String> login = new HashMap<String, String>();
-		login.put("email", "vinivioti@yahoo.com.br");
-		login.put("senha", "Cypress@123");
+		login.put("email", "COLOQUESEUEMAILCADASTRADO");
+		login.put("senha", "COLOQUESUASENHACADASTRADANOSITE");
 		
 		// login na API
 		//Receber o Token
